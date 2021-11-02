@@ -21,6 +21,6 @@ int main(int argc, char *argv[]) {
 }
 
 void display_help() {
-  printf("helloworld Version %s - built %s / %s\n", VERSION, __DATE__,
-         __TIME__);
+  printf("helloworld Version %s - built %s / %s - %s\n", VERSION, __DATE__,
+         __TIME__, __TIMESTAMP__);
 }
